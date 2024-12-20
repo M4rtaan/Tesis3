@@ -1,0 +1,2 @@
+node_modules # Mantiene la carpeta node_modules fuera del proyecto
+.env # Mantiene las viaralbes de entorno fuera del publico
