@@ -1,0 +1,109 @@
+/* Estilos minimalistas y profesionales */
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  }
+  
+  .signup-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+    width: 100%;
+  }
+  
+  .signup-heading {
+    text-align: center;
+    color: #2a2a72;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .signup-alert {
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .signup-error {
+    background: #ff6b6b;
+    color: #fff;
+  }
+  
+  .signup-success {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #2a2a72;
+  }
+  
+  .form-input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-input:focus {
+    border-color: #ff9a9e;
+    outline: none;
+  }
+  
+  .btn-primary {
+    background: #2a2a72;
+    color: #ffffff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: #1f1f5c;
+  }
+  
+  .btn-secondary {
+    background: transparent;
+    color: #2a2a72;
+    border: 1px solid #2a2a72;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background: #2a2a72;
+    color: #ffffff;
+  }
+  
+  .login-redirect {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  

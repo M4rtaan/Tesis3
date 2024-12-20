@@ -1,0 +1,97 @@
+.cliente-list-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .cliente-list-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .cliente-list-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .btn-add,
+  .btn-back {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .btn-add:hover,
+  .btn-back:hover {
+    background-color: #0056b3;
+  }
+  
+  .cliente-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cliente-list-table th,
+  .cliente-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cliente-list-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  
+  .btn-edit {
+    color: #28a745;
+  }
+  
+  .btn-delete {
+    color: #dc3545;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    text-align: center;
+  }
+  
+  .loading-message,
+  .no-data-message {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
